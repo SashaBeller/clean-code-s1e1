@@ -17,7 +17,7 @@ body {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .header {
     text-align: center;
@@ -41,16 +41,16 @@ body {
 }
 
 .tasks-list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .tasks-list__item {
-  list-style:none;
+  list-style: none;
 }
 .tasks-list__button,
 .tasks-list_edit,
 .todo__add-task {
-  outline:none;
+  outline: none;
 }
 .tasks-list__button {
   background: none;
@@ -143,14 +143,14 @@ body {
 
 /* Edit Task */
 .tasks-list__edit {
-  display:none;
+  display: none;
 }
 
 .edit-mode .tasks-list__edit {
-  display:inline-block;
-  width:224px;
+  display: inline-block;
+  width: 224px;
 }
 
 .edit-mode .tasks-list__label {
-  display:none;
+  display: none;
 }
