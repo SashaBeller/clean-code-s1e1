@@ -48,8 +48,9 @@ body {
   list-style: none;
 }
 .tasks-list__button,
-.tasks-list_edit,
-.todo__add-task {
+.todo__add-task,
+.tasks-list__edit, .tasks-list__item 
+{
   outline: none;
 }
 .tasks-list__button {
