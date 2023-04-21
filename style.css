@@ -18,8 +18,11 @@ body {
 }
 
 @media (max-width:768px) {
-.header { text-align: center;
-}
+
+  .header {
+    text-align: center;
+  }
+
 }
 .todo-container {
   display: block;
@@ -61,6 +64,7 @@ body {
 .tasks-list__button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .tasks-list-heading {
   color: #333;
@@ -110,7 +114,6 @@ body {
 .tasks-list__item > * {
   vertical-align: middle;
 }
-
 .tasks-list__marker {
   margin: 0 10px;
 }
