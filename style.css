@@ -89,7 +89,8 @@ body {
   font-family: Lato, sans-serif;
   color: #888;
 }
-.tasks-list_edit:focus {
+.tasks-list__edit:focus,
+.todo__add-task:focus {
   color: #333;
 }
 
