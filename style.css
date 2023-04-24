@@ -49,8 +49,8 @@ body {
 }
 .tasks-list__button,
 .todo__add-task,
-.tasks-list__edit, .tasks-list__item 
-{
+.tasks-list__edit,
+.tasks-list__item {
   outline: none;
 }
 .tasks-list__button {
